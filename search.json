@@ -7,24 +7,143 @@
     "text": "This is the course book we will be using for Computational Sociology (PGSP11583).\n\nprint(\"Computational Sociology\")\n\n[1] \"Computational Sociology\"\n\n\n\n\n\n\n\n\nThe book is a “live” document meaning I will be updating as we progress together through the course.\n\n\n\n\n\nThis website is (and will always be) free to use, and is licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "course_overview.html",
+    "href": "course_overview.html",
+    "title": "Learning outcomes",
     "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "This course will give students training in the use of various computational methods in the social sciences. The course will prepare students for dissertation work that uses digital trace data and/or computational methods and will provide hands-on training in the use of the R programming language and (some) Python.\nThe course will provide a venue for seminar discussion of examples using these methods in the empirical social sciences as well as lectures on the technical and/or statistical dimensions of their application."
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "7  Summary",
+    "objectID": "course_overview.html#course-structure",
+    "href": "course_overview.html#course-structure",
+    "title": "Learning outcomes",
+    "section": "Course structure",
+    "text": "Course structure\nWe will be using this online book for the ten-week course in “Computational Sociology” (PGSP11583). Each chapter contains the readings for that week. The book also includes worksheets with example code for how to conduct some of the text analysis techniques we discuss each week.\nEach week (with the partial exception of week 1), we will be discussing, alternately, the substantive and technical dimensions of published research in the empirical social sciences."
+  },
+  {
+    "objectID": "course_overview.html#course-theme",
+    "href": "course_overview.html#course-theme",
+    "title": "Learning outcomes",
+    "section": "Course theme",
+    "text": "Course theme\nIn order to discipline the course, I have decided to focus on one theme that is currently making headlines: the political consequences of social media.\nWith this in mind, every two weeks we will be studying a different phenomenon that has gained media attention: e.g., echo chambers, misinformation, violence.\nOn alternate weeks, we will discuss how these phenomena have been studied—using both computational and non-computational methods. In the subsequent week, we will then go through some of the technical dimensions of the methods used in the papers we study."
+  },
+  {
+    "objectID": "course_overview.html#course-pre-preparation",
+    "href": "course_overview.html#course-pre-preparation",
+    "title": "Learning outcomes",
+    "section": "Course pre-preparation",
+    "text": "Course pre-preparation\nNOTE: Before the lecture in Week 2, students should complete two introductory R exercises.\n\nFirst, you should consult the worksheet here, which is an introduction to setting up and understanding the very basics of working in R. S\nSecond, Ugur Ozdemir has provided such a more comprehensive introductory R course for the Research Training Centre at the University of Edinburgh and you can follow the instructions here to access this."
+  },
+  {
+    "objectID": "course_overview.html#reference-sources",
+    "href": "course_overview.html#reference-sources",
+    "title": "Learning outcomes",
+    "section": "Reference sources",
+    "text": "Reference sources\nThere are two main reference texts that will be of use during this course:\n\nWickham, Hadley and Garrett Grolemund. R for Data Science: https://r4ds.had.co.nz/\nSalganik, Matt. Bit by Bit: Social Research in the Digital Age: https://www.bitbybitbook.com/"
+  },
+  {
+    "objectID": "course_overview.html#assessment",
+    "href": "course_overview.html#assessment",
+    "title": "Learning outcomes",
+    "section": "Assessment",
+    "text": "Assessment\n\nFortnightly worksheets\nEach fortnight, I will provide you with one worksheet that walks you through how to implement a different computational technique. At the end of these worksheets you will find a set of questions. You should buddy up with someone else in your class and go through these together.\nThis is called “pair programming” and there’s a reason we do this. Firstly, coding can be an isolating and difficult thing—it’s good to bring a friend along for the ride! Secondly, if there’s something you don’t know, maybe your buddy will. This saves you both time. Thirdly, your buddy can check your code as you write it, and vice versa. Again, this means both of you are working together to produce and check something as you go along.\nAt the subsequent week’s lecture, I will pick on a pair at random to answer each one of that worksheet’s questions (i.e., there is ~1/3 chance you’re going to get picked each week). I will ask you to walk us through your code. And remember: it’s also fine if you struggled and didn’t get to the end! If you encountered an obstacle, we can work through that together. All that matters to me is that you try.\n\n\nFortnightly flash talks\nOn the weeks where you are not going to be tasked with a coding assignment, you’re not off the hook… I will again be selecting a pair at random (the same as your coding pair) to talk me through one of the readings. I will pick a different pair for each reading (i.e., ~ 1/3 chance again).\nDon’t let this be cause of great anguish: I just want two or three minutes where you lay out for me: 1) the research question; 2) the data source; 3) the method; 4) the findings; 5) what you thought its limitations were. The main portion of your flash talk should focus on element 5).\nFor this last one, you will want to think about 1)-4); i.e., you will want to think about whether it really answered the research question, whether the data was appropriate for answering that question, whether the method was appropriate for answering that question, and whether the results show what the author claims they show. I will provide you wish an example flash talk at the first lecture.\n\n\nFinal assessment\nAssessment takes the form of one summative assessment. This will be a 4000 word essay on a subject of your choosing (with prior approval by me). For this, you will be required to select from a range of data sources I will provide. You may also suggest your own data source.\nYou will be asked to: a) formulate a research question; b) use at least one computational technique that we have studied; c) conduct an analysis of the data source you have provided; d) write up the initial findings; and e) outline potential extensions of your analysis.\nYou will then provide the code you used in reproducible (markdown) format and will be assessed on both the substantive content of your essay contribution (the social science part) as well as your demonstrated competency in coding and text analysis (the computational part)."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction to R",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "This section is designed to ensure you are familiar with the R environment."
+  },
+  {
+    "objectID": "intro.html#getting-started-with-r-at-home",
+    "href": "intro.html#getting-started-with-r-at-home",
+    "title": "Introduction to R",
+    "section": "Getting started with R at home",
+    "text": "Getting started with R at home\nGiven that we’re all working from home these days, you’ll need to download R and RStudio onto your own devices. R is the name of the programming language that we’ll be using for coding exercises; RStudio is the IDE (“Integrated Development Environment”), i.e., the piece of software that almost everyone uses when working in R.\nYou can download both of these on Windows and Mac easily and for free. This is one of the first reasons to use an “open-source” programming language: it’s free and everyone can contribute!\nIT Services at the University of Edinburgh have provided a walkthrough of what is needed for you to get started. I also break this down below:\n\nInstall R for Mac from here: https://cran.r-project.org/bin/macosx/. Install R for Windows from here: https://cran.r-project.org/bin/windows/base/.\nDownload RStudio for Windows or Mac from here: https://rstudio.com/products/rstudio/download/, choosing the Free version: this is what most people use and is more than enough for all of our needs.\n\nAll programs are free. Make sure to load everything listed above for your operating system or R will not work properly!"
+  },
+  {
+    "objectID": "intro.html#some-basic-information",
+    "href": "intro.html#some-basic-information",
+    "title": "Introduction to R",
+    "section": "Some basic information",
+    "text": "Some basic information\n\nA script is a text file in which you write your commands (code) and comments.\nIf you put the # character in front of a line of text this line will not be executed; this is useful to add comments to your script!\nR is case sensitive, so be careful when typing.\nTo send code from the script to the console, highlight the relevant line of code in your script and click on Run, or select the line and hit ctrl+enter on PCR or cmd+enter on Mac\nAccess help files for R functions by preceding the name of the function with ? (e.g., ?table)\nBy pressing the up key, you can go back to the commands you have used before\nPress the tab key to auto-complete variable names and commands"
+  },
+  {
+    "objectID": "intro.html#getting-started-in-rstudio",
+    "href": "intro.html#getting-started-in-rstudio",
+    "title": "Introduction to R",
+    "section": "Getting Started in RStudio",
+    "text": "Getting Started in RStudio\nBegin by opening RStudio (located on the desktop). Your first task is to create a new script (this is where we will write our commands). To do so, click:\n\nFile --> NewFile --> RScript\n\nYour screen should now have four panes:\n\nthe Script (top left)\nthe Console (bottom left)\nthe Environment/History (top right)\nFiles/Plots/Packages/Help/Viewer (bottom right)"
+  },
+  {
+    "objectID": "intro.html#a-simple-example",
+    "href": "intro.html#a-simple-example",
+    "title": "Introduction to R",
+    "section": "A simple example",
+    "text": "A simple example\nThe Script (top left) is where we write our commands for R. You can try this out for a first time by writing a small snipped of code as follows:\n\nx <- \"I can't wait to learn Computational Text Analysis\" #Note the quotation marks!\n\nTo tell R to run the command, highlight the relevant row in your script and click the Run button (top right of the Script) - or hold down ctrl+enter on Windows or cmd+enter on Mac - to send the command to the Console (bottom left), where the actual evaluation and calculations are taking place. These shortcut keys will become very familiar to you very quickly!\nRunning the command above creates an object named ‘x’, that contains the words of your message.\nYou can now see ‘x’ in the Environment (top right). To view what is contained in x, type in the Console (bottom left):\n\nprint(x)\n\n[1] \"I can't wait to learn Computational Text Analysis\"\n\n# or alternatively you can just type:\n\nx\n\n[1] \"I can't wait to learn Computational Text Analysis\""
+  },
+  {
+    "objectID": "intro.html#loading-packages",
+    "href": "intro.html#loading-packages",
+    "title": "Introduction to R",
+    "section": "Loading packages",
+    "text": "Loading packages\nThe ‘base’ version of R is very powerful but it will not be able to do everything on its own, at least not with ease. For more technical or specialized forms of analysis, we will need to load new packages.\nThis is when we will need to install a so-called ‘package’—a program that includes new tools (i.e., functions) to carry out specific tasks. You can think of them as ‘extensions’ enhancing R’s capacities.\nTo take one example, we might want to do something a little more exciting than print how excited we are about this course. Let’s make a map instead.\nThis might sound technical. But the beauty of the packaged extensions of R is that they contain functions to perform specialized types of analysis with ease.\nWe’ll first need to install one of these packages, which you can do as below:\n\ninstall.packages(\"tidyverse\")\n\nAfter the package is installed, we then need to load it into our environment by typing library(). Note that, here, you don’t need to wrap the name of the package in quotation marks. So this will do the trick:\n\nlibrary(tidyverse)\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──\n\n\n✔ ggplot2 3.3.6     ✔ purrr   0.3.4\n✔ tibble  3.1.7     ✔ dplyr   1.0.9\n✔ tidyr   1.2.0     ✔ stringr 1.4.0\n✔ readr   2.1.2     ✔ forcats 0.5.1\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\n\n\nWhat now? Well, let’s see just how easy it is to visualize some data using ggplot which is a package that comes bundled into the larger tidyverse package.\n\nggplot(data = mpg) + \n  geom_point(mapping = aes(x = displ, y = hwy))\n\n\n\n\nIf we wanted to save where we’d got to with making our plots, we would want to save our scripts, and maybe the data we used as well, so that we could return to it at a later stage."
+  },
+  {
+    "objectID": "intro.html#saving-your-objects-plots-and-scripts",
+    "href": "intro.html#saving-your-objects-plots-and-scripts",
+    "title": "Introduction to R",
+    "section": "Saving your objects, plots and scripts",
+    "text": "Saving your objects, plots and scripts\n\nSaving scripts: To save your script in RStudio (i.e. the top left panel), all you need to do is click File –> Save As (and choose a name for your script). Your script will be something like: myfilename.R.\nSaving plots: If you have made any plots you would like to save, click Export (in the plotting pane) and choose a relevant file extension (e.g. .png, .pdf, etc.) and size.\nTo save individual objects (for example x from above) from your environment, run the following command (choosing a suitable filename):\n\n\nsave(x,file=\"myobject.RData\")\nload(file=\"myobject.RData\")\n\n\nTo save all of your objects (i.e. everything in the top right panel) at once, run the following command (choosing a suitable filename):\n\n\nsave.image(file=\"myfilname.RData\")\n\n\nYour objects can be re-loaded into R during your next session by running:\n\n\nload(file=\"myfilename.RData\")\n\nThere are many other file formats you might use to save any output. We will encounter these as the course progresses."
+  },
+  {
+    "objectID": "intro.html#knowing-where-r-saves-your-documents",
+    "href": "intro.html#knowing-where-r-saves-your-documents",
+    "title": "Introduction to R",
+    "section": "Knowing where R saves your documents",
+    "text": "Knowing where R saves your documents\nIf you are at home, when you open a new script make sure to check and set your working directory (i.e. the folder where the files you create will be saved). To check your working directory use the getwd() command (type it into the Console or write it in your script in the Source Editor):\n\ngetwd()\n\nTo set your working directory, run the following command, substituting the file directory of your choice. Remember that anything following the `#’ symbol is simply a clarifying comment and R will not process it.\n\n## Example for Mac \nsetwd(\"/Users/Documents/mydir/\") \n## Example for PC \nsetwd(\"c:/docs/mydir\")"
+  },
+  {
+    "objectID": "intro.html#practicing-in-r",
+    "href": "intro.html#practicing-in-r",
+    "title": "Introduction to R",
+    "section": "Practicing in R",
+    "text": "Practicing in R\nThe best way to learn R is to use it. These workshops on text analysis will not be the place to become fully proficient in R. They will, however, be a chance to conduct some hands-on analysis with applied examples in a fast-expanding field. And the best way to learn is through doing. So give it a shot!\nFor some further practice in the R programming language, look no further than (wickham_r_2017?) and, for tidy text analysis, (silge_text_2017?).\n\nThe free online book by Hadley Wickham “R for Data Science” is available here\nThe free online book by Julia Silge and David Robinson “Text Mining with R” is available here\nFor more practice with R, you may want to consult a set of interactive tutorials, available through the package “learnr.” Once you’ve installed this package, you can go through the tutorials yourselves by calling:\n\n\nlibrary(learnr)\n\navailable_tutorials() # this will tell you the names of the tutorials available\n\nrun_tutorial(name = \"ex-data-basics\", package = \"learnr\") #this will launch the interactive tutorial in a new Internet browser window"
+  },
+  {
+    "objectID": "intro.html#one-final-note",
+    "href": "intro.html#one-final-note",
+    "title": "Introduction to R",
+    "section": "One final note",
+    "text": "One final note\nOnce you’ve dipped into the “R for Data Science” book you’ll hear a lot about the so-called tidyverse in R. This is essentially a set of packages that use an alternative, and more intuitive, way of interacting with data.\nThe main difference you’ll notice here is that, instead of having separate lines for each function we want to run, or wrapping functions inside functions, sets of functions are “piped” into each other using “pipe” functions, which look have the appearance: %>%.\nI will be using “tidy” syntax in the weekly exercises for these computational text analysis workshops. If anything is unclear, I can provide the equivalents in “base” R too. But a lot of the useful text analysis packages are now composed with ‘tidy’ syntax."
+  },
+  {
+    "objectID": "chap1.html",
+    "href": "chap1.html",
+    "title": "1  Week 1",
+    "section": "",
+    "text": "This week will be dedicated to a more general introduction to computational social science and what it means to think “computationally.”\nIn essence, this means getting used to different types of data. These might be:\nThese data are “found” or “trace” data. They are not custom-made for social science; they can be repurposes, though, for answering questions in the social sciences."
+  },
+  {
+    "objectID": "chap1.html#essential-reading",
+    "href": "chap1.html#essential-reading",
+    "title": "1  Week 1",
+    "section": "1.1 Essential reading:",
+    "text": "1.1 Essential reading:\n\nSalganik (2017)\nD. M. J. Lazer et al. (2020)\nD. Lazer et al. (2021)"
+  },
+  {
+    "objectID": "chap1.html#slides",
+    "href": "chap1.html#slides",
+    "title": "1  Week 1",
+    "section": "1.2 Slides",
+    "text": "1.2 Slides\nSlides for week one are available here\n\n\n\n\nLazer, David M. J., Alex Pentland, Duncan J. Watts, Sinan Aral, Susan Athey, Noshir Contractor, Deen Freelon, et al. 2020. “Computational Social Science: Obstacles and Opportunities.” Science 369 (6507): 1060–62. https://doi.org/10.1126/science.aaz8170.\n\n\nLazer, David, Eszter Hargittai, Deen Freelon, Sandra Gonzalez-Bailon, Kevin Munger, Katherine Ognyanova, and Jason Radford. 2021. “Meaningful Measures of Human Society in the Twenty-First Century.” Nature 595 (7866): 189–96. https://doi.org/10.1038/s41586-021-03660-7.\n\n\nSalganik, Matthew J. 2017. Bit by Bit: Social Research in the Digital Age. Princeton, NJ.: Princeton University Press."
   },
   {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Lazer, David M. J., Alex Pentland, Duncan J. Watts, Sinan Aral, Susan\nAthey, Noshir Contractor, Deen Freelon, et al. 2020.\n“Computational Social Science: Obstacles and\nOpportunities.” Science 369 (6507): 1060–62. https://doi.org/10.1126/science.aaz8170.\n\n\nLazer, David, Eszter Hargittai, Deen Freelon, Sandra Gonzalez-Bailon,\nKevin Munger, Katherine Ognyanova, and Jason Radford. 2021.\n“Meaningful Measures of Human Society in the Twenty-First\nCentury.” Nature 595 (7866): 189–96. https://doi.org/10.1038/s41586-021-03660-7.\n\n\nSalganik, Matthew J. 2017. Bit by Bit: Social Research in the\nDigital Age. Princeton, NJ.: Princeton University Press."
   }
 ]
